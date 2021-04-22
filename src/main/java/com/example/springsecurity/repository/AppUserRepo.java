@@ -7,7 +7,6 @@ import org.springframework.stereotype.Repository;
 
 
 @Repository
-@EnableMongoRepositories
 public interface AppUserRepo extends MongoRepository<AppUser, Long> {
 
     AppUser findAllByUsername(String username);
