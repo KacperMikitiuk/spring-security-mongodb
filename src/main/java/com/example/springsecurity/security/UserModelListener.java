@@ -1,6 +1,6 @@
 package com.example.springsecurity.security;
 
-import com.example.springsecurity.Model.AppUser;
+import com.example.springsecurity.model.AppUser;
 import com.example.springsecurity.SequenceGeneratorService;
 import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.data.mongodb.core.mapping.event.AbstractMongoEventListener;

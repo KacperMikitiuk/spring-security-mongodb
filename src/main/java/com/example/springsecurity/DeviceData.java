@@ -1,4 +1,4 @@
-package com.example.springsecurity.Model;
+package com.example.springsecurity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Transient;
@@ -70,7 +70,4 @@ public class DeviceData {
         this.data = data;
     }
 
-    public void addData(double x, double y) {
-        data.put(String.valueOf(x), y);
-    }
 }

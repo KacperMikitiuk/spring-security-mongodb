@@ -1,4 +1,4 @@
-package com.example.springsecurity;
+package com.example.springsecurity.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;

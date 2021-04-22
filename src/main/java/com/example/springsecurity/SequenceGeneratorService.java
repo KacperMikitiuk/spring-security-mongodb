@@ -1,6 +1,6 @@
 package com.example.springsecurity;
 
-import com.example.springsecurity.Model.DatabaseSequence;
+import com.example.springsecurity.model.DatabaseSequence;
 import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Component;

@@ -1,6 +1,5 @@
-package com.example.springsecurity.Model;
+package com.example.springsecurity.model;
 
-import org.springframework.context.annotation.Primary;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Transient;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -8,9 +7,6 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import java.util.Collection;
 import java.util.Collections;
 
