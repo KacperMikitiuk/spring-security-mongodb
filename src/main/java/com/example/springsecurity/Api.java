@@ -79,7 +79,7 @@ public class Api {
     }
 
     @GetMapping("addDevice/{name}")
-    public String addDevice(@PathVariable("name") String user,@PathVariable("name") String name, DeviceDataRepo deviceDataRepo,
+    public String addDevice(@PathVariable("name") String name, DeviceDataRepo deviceDataRepo,
                             MongoOperations mongoOperations) {
         this.deviceDataRepo = deviceDataRepo;
         this.mongoOperations1 = mongoOperations;
